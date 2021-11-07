@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'FNF';
-    src: url('FNF_Font_Main.woff2'), url('FNF_Font_Pixels.woff2');
+    src: url('FNF_Font_Main.woff2'), url('FNF_Font_Pixels.woff2'), Sans-Serif;
     font-weight: normal;
     font-style: normal;
 }
