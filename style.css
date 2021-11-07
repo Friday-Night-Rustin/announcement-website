@@ -48,9 +48,9 @@ main {
 }
 
 #title {
-  font-weight: 1000;
+  font-weight: 500;
   color: white;
-  font-size: 60px !important;
+  font-size: 70px !important;
   cursor: initial !important;
   background-color: rgba(0, 0, 0, 0) !important;
   text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
