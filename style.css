@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  display: flex;
+  background: radial-gradient(ellipse at bottom, #000000 0%, #0a0a15 100%);
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  margin: auto;
+  perspective: 500px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  -webkit-animation: zoom-in 1.5s ease;
+          animation: zoom-in 1.5s ease;
+}
+
+
+@-webkit-keyframes zoom-in {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+#title {
+  font-weight: 1000;
+  color: white;
+  font-size: 60px !important;
+  cursor: initial !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+  animation-duration: 0.01s;
+  animation-name: textflicker;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  text-align: center;
+}
+
+@keyframes textflicker {
+  from {
+    text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+  }
+  to {
+    text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+  }
+}
